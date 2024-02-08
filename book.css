@@ -7,11 +7,59 @@
   /*   outline: 1px solid #f00 !important; */
 }
 
+/* Genesis */
+.book-name{
+    font-size: 30rem;
+    margin-left: 9.5%;
+    background-image: url(Genesis.avif);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.three-colums{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-left: 5%;
+}
+.chapters{
+    width: 33.33%;
+    background-color: hsl(240, 100%, 5%);
+    margin-right: 10%;
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 4rem;
+}
+.chapters h2{
+    color: hsl(35, 77%, 62%);
+    text-align: center;
+    font-size: 2.5rem;
+}
+.chapters p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+.chapters b{
+    color: hsl(5, 85%, 63%);
+}
+.chapters u{
+    text-decoration: underline;
+}
+
+
+
+
+
+
 /* Header */
 header{
     width: 100%;
     display: flex;
-    padding: 28px 12%;
+    padding: 27px 12%;
     justify-content: space-between;
     align-items: center;
     height: 7rem;
@@ -19,6 +67,7 @@ header{
 .menu{
     font-size: 1.3rem;
 }
+
 .bar1, .bar2, .bar3{
     width: 35px;
     height: 5px;
@@ -70,7 +119,7 @@ ul a{
     color: #4d4d4d;
     font-size: 2rem;
     font-weight: 400;
-    margin: 28px;
+    margin: 1.156em;
     transition: all .5s ease;
 }
 .logo{
@@ -89,154 +138,10 @@ ul a{
 
 
 
-/* Main Content */
-.main-with-sidebar{
-    width: 60%;
-    margin: 3%;
-}
-.two-columns{
-    display: flex;
-}
-.one{
-    width: 50%;
-    margin-top: 2%;
-    margin-left: 14.7%;
-}
-.one h1{
-    font-size: 5rem;
-    color: hsl(240, 100%, 5%);
-}
-.two{
-    margin-top: 5%;
-    width: 50%;
-    margin-left: -20%;
-}
-.two h4{
-    font-size: 1.7rem;
-    color: #4d4d4d;
-    font-weight: 400;
-}
-img{
-    width: 80%;
-    transform: scale(1);
-    margin-left: 15%;
-}
- 
-
-
-
-
-
-
-
-
-
-/* Sidebar */
-.sidebar{
-    float: right;
-    margin-top: -45.2%;
-    background-color: hsl(240, 100%, 5%);
-    margin-right: 13%;
-}
-.box{
-    width: 35rem;
-    height: 67.1rem;
-    text-align: center;
-}
-.box h3{
-    color: hsl(35, 77%, 62%);
-    font-size: 2.5rem;
-    padding-top: 10%;
-}
-.anim{
-    width: 3rem;
-    height: 2rem;
-    margin: 1rem;
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-    transition: all .5s ease;
-    cursor: pointer;
-}
-hr{
-    width: 90%;
-    height: 1px;
-    margin: 5%;
-}
-.reference{
-    background-color: hsl(5, 85%, 63%);
-    border: none;
-    color: #fff;
-    width: 10rem;
-    height: 3rem;
-    transform: scale(1.3);
-    margin-left: 3%;
-    transition: all .5s ease;
-    cursor: pointer;
-    margin-top: 1.6rem;
-}
-
-
-
-
-
-
-
-
-
-
-/* Bottom part */
-.three-colums{
-    width: 75%;
-    margin-left: 12%;
-    display: flex;
-}
-.bottom-columns{
-    width: 33.33%;
-}
-.text{
-    margin-left: 30%;
-    width: 50%;
-    margin-top: -68%;
-}
-.text h1{
-    color: hsl(233, 8%, 79%);
-    padding-bottom: .5rem;
-}
-.text h2{
-    color: hsl(240, 100%, 5%);
-    padding-bottom: .5rem;
-}
-.text p{
-    color: #4d4d4d;
-}
-.image01{
-    margin-left: -28%;
-    margin-top: -35.6%;
-    transform: scale(0.3);
-}
-
-
-
-
-
-
-
-
-
-
 /* Animations */
 ul a:hover, .logo:hover{
     transform: translateY(-5px);
     color: hsl(35, 77%, 62%);
-}
-.anim:hover{
-    color: hsl(35, 77%, 62%);
-    border:  2px solid hsl(35, 77%, 62%);
-    transform: translateY(-5px);
-}
-.reference:hover{
-    background-color: hsl(240, 100%, 5%);
 }
 
 
@@ -429,11 +334,7 @@ ul a:hover, .logo:hover{
         width: 100%;
         margin-bottom: 10%;
     }
-    .image01{
-        transform: scale(0.6);
-        margin-left: -18%;
-        margin-top: 0%;
-    }
+    
     #one, #two, #three{
         margin-top: 0rem;
     }

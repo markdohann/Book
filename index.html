@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+        <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-    <title>---</title>
+    <title>Bible Studies</title>
 </head>
 <body>
-    
     <div class="wrapper">
         <header>
             <a class="logo" href="index.html">MD.</a>
 
-            <div class="phone">
-                <div class="container" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                    <div class="part">
-                        <a href="index.html">Verses</a>
-                        <a href="index.html">God's Promises</a>
-                        <a href="index.html">Prophecies about Jesus</a>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="#">Verses</a>
+                    <a href="#">God's Promises</a>
+                    <a href="#">Prophecies about Jesus</a>
                     </div>
-                </div>
             </div>
-            
+
+            <div class="menu" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
             <ul>
+                <a href="index.html">Home</a>
                 <a href="index.html">Verses</a>
                 <a href="index.html">God's Promises</a>
                 <a href="index.html">Prophecies about Jesus</a>
             </ul>
         </header>
-        <main>
-        
-
-
+        <main id="scroller">
             <div class="main-with-sidebar">
                 <div class="main-content">
                     <img src="photo.png" alt="" class="prov">
@@ -57,7 +57,7 @@
             <aside class="sidebar">
                 <div class="box">
                     <h3>Vechiul Testament</h3>
-                    <a href="index.html"><button class="anim">Gen.</button></a>
+                    <a href="gen.html"><button class="anim">Gen.</button></a>
                     <a href="index.html"><button class="anim">Exod.</button></a>
                     <a href="index.html"><button class="anim">Lev.</button></a>
                     <a href="index.html"><button class="anim">Num.</button></a>
@@ -154,6 +154,6 @@
         </main>
     </div>
 
-
 </body>
 </html>
+
