@@ -7,11 +7,34 @@
   /*   outline: 1px solid #f00 !important; */
 }
 
-/* Genesis */
-.book-name{
+
+.book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
     font-size: 30rem;
-    margin-left: 9.5%;
-    background-image: url(Genesis.avif);
+    width: 100%;
+    text-align: center;
+    background-image: url(one.png);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+.book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46,  .book-47, .book-66{
+    font-size: 21rem;
+    width: 100%;
+    text-align: center;
+    background-image: url(two.png);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+.book-52, .book-53{
+    font-size: 18rem;
+    width: 100%;
+    text-align: center;
+    background-image: url(two.png);
     background-clip: text;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,20 +42,309 @@
     color: transparent;
 }
 
+
+/* Exodul */
+.book-2{   
+    background-image: url(two.png);
+}
+/* Levitic */
+.book-3{
+    background-image: url(three.png);
+}
+/* Numeri */
+.book-4{
+    background-image: url(four.png);
+}
+/* Deuteronom */
+.book-5{
+    background-image: url(two.png);
+}
+/* Iosua */
+.book-6{
+    background-image: url(two.png);
+}
+/* Judecătorii */
+.book-7{
+    background-image: url(two.png);
+}
+/* Rut */
+.book-8{
+    background-image: url(two.png);
+}
+/* 1 Samuel */
+.book-9{
+    background-image: url(two.png);
+}
+/* 2 Samuel */
+.book-10{
+    background-image: url(two.png);
+}
+/* 1 Împărați */
+.book-11{
+    background-image: url(two.png);
+
+}
+/* 2 Împărați */
+.book-12{
+    background-image: url(two.png);
+}
+/* 1 Cronici */
+.book-13{
+    background-image: url(two.png);
+}
+/* 2 Cronici */
+.book-14{
+    background-image: url(two.png);
+}
+/* Ezra */
+.book-15{
+    background-image: url(two.png);
+}
+/* Neemia */
+.book-16{
+    background-image: url(two.png);
+}
+/* Estera */
+.book-17{
+    background-image: url(two.png);
+}
+/* Iov */
+.book-18{
+    background-image: url(two.png);
+}
+/* Psalmii */
+.book-19{
+    background-image: url(two.png);
+}
+/* Proverbe */
+.book-20{
+    background-image: url(two.png);
+}
+/* Eclesiastul */
+.book-21{
+    background-image: url(two.png);
+}
+/* Cantarea cantarilor */
+.book-22{
+    background-image: url(two.png);
+}
+/* Isaia */
+.book-23{
+    background-image: url(two.png);
+}
+/* Ieremia */
+.book-24{
+    background-image: url(two.png);
+}
+/* Plangerile lui Ieremia */
+.book-25{
+    background-image: url(two.png);
+}
+/* Ezechia */
+.book-26{
+    background-image: url(two.png);
+}
+/* Daniel */
+.book-27{
+    background-image: url(two.png);
+}
+/* Osea */
+.book-28{
+    background-image: url(two.png);
+}
+/* Ioel */
+.book-29{
+    background-image: url(two.png);
+}
+/* Amos */
+.book-30{
+    background-image: url(two.png);
+}
+/* Obadia */
+.book-31{
+    background-image: url(two.png);
+}
+/* Iona */
+.book-32{
+    background-image: url(two.png);
+}
+/* Mica */
+.book-33{
+    background-image: url(two.png);
+}
+/* Naum */
+.book-34{
+    background-image: url(two.png);
+}
+/* Habacuc */
+.book-35{
+    background-image: url(two.png);
+}
+/* Tefania */
+.book-36{
+    background-image: url(two.png);
+}
+/* Hagai */
+.book-37{
+    background-image: url(two.png);
+}
+/* Zaharia */
+.book-38{
+    background-image: url(two.png);
+}
+/* Maleahi */
+.book-39{
+    background-image: url(two.png);
+}
+/* Matei */
+.book-40{
+    background-image: url(one.png);
+}
+/* Marc */
+.book-41{
+    background-image: url(two.png);
+}
+/* Luca */
+.book-42{
+    background-image: url(two.png);
+}
+/* Ioan */
+.book-43{
+    background-image: url(two.png);
+}
+/* Fapte */
+.book-44{
+    background-image: url(two.png);
+}
+/* Romani */
+.book-45{
+    background-image: url(two.png);
+}
+/* 1 Corinteni */
+.book-46{
+    background-image: url(two.png);
+}
+/* 2 Corinteni */
+.book-47{
+    background-image: url(two.png);
+}
+/* Galateni */
+.book-48{
+    background-image: url(two.png);
+}
+/* Efeseni */
+.book-49{
+    background-image: url(two.png);
+}
+/* Filipeni */
+.book-50{
+    background-image: url(two.png);
+}
+/* Coloseni */
+.book-51{
+    background-image: url(two.png);
+}
+/* 1 Tesaloniceni */
+.book-52{
+    background-image: url(two.png);
+}
+/* 2 Tesaloniceni */
+.book-53{
+    background-image: url(two.png);
+}
+/* 1 Timotei */
+.book-54{
+    background-image: url(two.png);
+}
+/* 2 Timotei */
+.book-55{
+    background-image: url(two.png);
+}
+/* Tit */
+.book-56{
+    background-image: url(two.png);
+}
+/* Filimon */
+.book-57{
+    background-image: url(two.png);
+}
+/* Evrei */
+.book-58{
+    background-image: url(two.png);
+}
+/* Iacov */
+.book-59{
+    background-image: url(two.png);
+}
+/* 1 Petru */
+.book-60{
+    background-image: url(two.png);
+}
+/* 2 Petru */
+.book-61{
+    background-image: url(two.png);
+}
+/* 1 Ioan */
+.book-62{
+    background-image: url(two.png);
+}
+/* 2 Ioan */
+.book-63{
+    background-image: url(two.png);
+}
+/* 3 Ioan */
+.book-64{
+    background-image: url(two.png);
+}
+/* Iuda */
+.book-65{
+    background-image: url(two.png);
+}
+/* Apocalipsa */
+.book-66{
+    background-image: url(two.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .three-colums{
     width: 100%;
     height: max-content;
     display: flex;
-    margin-left: 5%;
 }
 .chapters{
     width: 33.33%;
     background-color: hsl(240, 100%, 5%);
-    margin-right: 10%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
     color: #fff;
     padding: 40px;
     margin-bottom: 4rem;
 }
+.chapters-fake{
+    width: 33.33%;
+    background-color: transparent;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 4rem;
+}
+
 .chapters h2{
     color: hsl(35, 77%, 62%);
     text-align: center;
@@ -125,7 +437,7 @@ ul a{
 .logo{
     color: #4d4d4d;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     transition: all .5s ease;
 }
 
@@ -171,13 +483,23 @@ ul a:hover, .logo:hover{
    ul a{
     font-size: 1.2rem;
    } 
-   .sidebar{
-    position: absolute;
-    margin-left: 65%;
-    margin-top: -48.7%;
-   }
    .three-colums{
     margin-top: 15%;
+   }
+   .book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
+    font-size: 20rem;
+   }
+   .book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46, .book-47, .book-66{
+    font-size: 16rem;
+   }
+   .book-52, .book-53{
+    font-size: 13rem;
+   }
+   .three-colums{
+    margin-top: 1%;
+   }
+   .chapters p{
+    font-size: 1.2rem;
    }
 }
 
@@ -186,25 +508,24 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:1600px){
-    .sidebar{
-        margin-left: 60%;
-        margin-top: -44.8%;
-    }
-    .main-with-sidebar{
-        margin: -5%;
-    }
-    .main-content{
-        margin-top: 10%;
-    }
-    .two{
-        margin-left: -2%;
-    }
-    .one h1{
-        font-size: 5rem;
-    }
     .three-colums{
         margin-top: 25%;
     }
+    .book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
+        font-size: 17rem;
+       }
+       .book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46, .book-47, .book-66{
+        font-size: 13rem;
+       }
+       .book-52, .book-53{
+        font-size: 10rem;
+       }
+       .three-colums{
+        margin-top: 1%;
+       }
+       .chapters p{
+        font-size: 1.1rem;
+       }
 }
 
 
@@ -212,36 +533,50 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:1440px){
-    .sidebar{
-        margin-left: 57%;
-        margin-top: -62.8%;
-    }
+
     .three-colums{
         margin-top: 17%;
-    }
-    .two-columns{
-        display: block;
-    }
-    .two{
-        margin-left: 15%;
-    }
-    .reference{
-        margin-left: 6%;
+    .book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
+        font-size: 14rem;
+       }
+       .book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46, .book-47, .book-66{
+        font-size: 10rem;
+       }
+       .book-52, .book-53{
+        font-size: 7rem;
+       }
+       .three-colums{
+        margin-top: 1%;
+       }
+       .chapters p{
+        font-size: 1.2rem;
+       }
     }
 }
 
 
 
 
-
 @media screen and (max-width:1366px){
-    .sidebar{
-        margin-left: 57%;
-        margin-top: -64.5%;
-    }
     .three-colums{
         margin-top: 20%;
     }
+    .book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
+        font-size: 11rem;
+       }
+       .book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46, .book-47, .book-66{
+        font-size: 8rem;
+       }
+       .book-52, .book-53{
+        font-size: 7rem;
+       }
+       .three-colums{
+        margin-top: 1%;
+       }
+       .chapters p{
+        font-size: 1.2rem;
+       }
+
 }
 
 
@@ -249,10 +584,9 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:1280px){
-    .sidebar{
-        margin-left: 54%;
-        margin-top: -69.4%;
-    }
+    .chapters p{
+        font-size: 1rem;
+       }
 }
 
 
@@ -260,28 +594,28 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:1024px){
-    .main-with-sidebar{
-        width: 100%;
-    }
-    .two-columns{
-        display: flex;
-    }
-    .two{
-        margin-left: 0%;
+    .logo{
+        font-size: 2.5rem;
     }
     .three-colums{
-        margin-top: 130%;
-        margin-left: 20%;
+        margin-top: 0%;
+        display: block;
+        margin-left: 19.2%;
+        width: 80%;
     }
-    .text h2{
-        font-size: 1rem;
+    .chapters{
+        width: 70%;
+        background-color: hsl(240, 100%, 5%);
+        color: #fff;
+        padding: 40px;
+        margin-bottom: 3rem;
     }
-    .text p{
-        font-size: 0.8rem;
-    }
-    .sidebar{
-        margin-top: 15%;
-        margin-left: 25%;
+    .chapters-fake{
+        width: 50%;
+        color: #fff;
+        background-color: transparent;
+        padding: 40px;
+        margin-bottom: 2rem;
     }
 }
 
@@ -290,9 +624,6 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:430px){
-    .menu{
-        display: block;
-    }
     ul{
         display: none;
     }
@@ -300,69 +631,16 @@ ul a:hover, .logo:hover{
         font-size: 2.5rem;
         margin-left: -3%;
     }
-    .prov{
-        width: 80%;
-    }
-    .two-columns{
-        display: block;
-    }
-    .one h1{
-        font-size: 4rem;
-    }
-    .two{
-        margin-left: 15%;
-        width: 90%;
-    }
-    .two h4{
-        font-size: 1.5rem;
-    }
-    .reference{
-        margin-left: 6%;
-    }
-    .sidebar{
-        transform: scale(0.7);
-        margin: 0%;
-        margin-top: -20%;
-        width: 100%;
-    }
     .three-colums{
         display: block;
-        margin-top: 190%;
-        margin-left: 10%;
+       margin-left: 7.2%;
     }
-    .bottom-columns{
+    .chapters{
         width: 100%;
-        margin-bottom: 10%;
+        margin-top: 4%;
     }
-    
-    #one, #two, #three{
-        margin-top: 0rem;
-    }
-    .text{
-        margin-left: 55%;  
-    }
-    .text h1{
-        font-size: 3rem;
-        margin-top: -170%;
-    }
-    .text h2{
-        font-size: 1.5rem;
-    }
-    .text p{
-        font-size: 1rem;
-    }
-    .box{
-        width: 100%;
-        overflow: scroll;
-    }
-    .box a{
-        width: 100%;
-        align-items: center;
-    }
-    .anim{
-      width: 6rem;
-      height: 5rem; 
-      font-size: 1.5rem; 
+    .menu{
+        display: block;
     }
     .overlay a{
         font-size: 20px
@@ -372,6 +650,15 @@ ul a:hover, .logo:hover{
         top: 1rem;
         right: 1.8rem;
     }
+    .book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
+        font-size: 5rem;
+    }
+    .book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46, .book-47, .book-66{
+        font-size: 3rem;
+    }
+    .book-52, .book-53{
+        font-size: 2.5rem;
+    }
 }
 
 
@@ -379,12 +666,7 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:390px){
-    .three-colums{
-        margin-top: 210%;
-    }
-    .text h2{
-        font-size: 1.2rem;
-    }
+
 }
 
 
@@ -392,15 +674,7 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:375px){
-    .two{
-        width: 80%;
-    }
-    .three-colums{
-        margin-top: 220%;
-    }
-    .text h2{
-        font-size: 1.2rem;
-    }
+    
 }
 
 
@@ -408,13 +682,10 @@ ul a:hover, .logo:hover{
 
 
 @media screen and (max-width:320px){
-    .three-colums{
-        margin-top: 260%;
+    .book-1, .book-2, .book-3, .book-4, .book-6, .book-8, .book-9, .book-10, .book-15, .book-16, .book-17, .book-18, .book-19 ,.book-23, .book-24, .book-26, .book-27, .book-28, .book-29, .book-30, .book-31, .book-32, .book-33, .book-34, .book-35, .book-36, .book-37, .book-38, .book-39, .book-40, .book-41, .book-42, .book-43, .book-45, .book-48, .book-49, .book-50, .book-51, .book-54, .book-55, .book-56, .book-57, .book-58, .book-59, .book-60, .book-61, .book-62, .book-63, .book-64, .book-65{
+        font-size: 4rem;
     }
-    .text h2{
-        font-size: 1rem;
-    }
-    .text p{
-        font-size: 0.8rem;
+    .book-5, .book-7, .book-11, .book-12, .book-13, .book-14, .book-20, .book-21, .book-22, .book-25, .book-44, .book-46, .book-47, .book-66{
+        font-size: 2.5rem;
     }
 }
